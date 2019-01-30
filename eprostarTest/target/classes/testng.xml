@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "eprostar test automation suite">
+   <test name = "eprostar application test">
+      <classes>
+         <class name = "comm.eprostar.qa.testcases.LoginPageTest"/>
+         <class name = "comm.eprostar.qa.testcases.UserInfoPageTest"/>
+         <class name = "comm.eprostar.qa.testcases.HomePageTest"/>
+      </classes>
+   </test>
+</suite>
